@@ -3,6 +3,7 @@ import cv2
 
 video = cv2.VideoCapture(0)
 
+# The location of haarcascade file 
 detector = cv2.CascadeClassifier('C:\\Users\\Dev Gupta\\Documents\\python\\Face recognization\\haarcascade_frontalface_default.xml')
 
 
